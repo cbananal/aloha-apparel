@@ -233,7 +233,6 @@ nav ul li {
     background-size: cover, contain;
     color: #fff;
 }
-/*note to self: the declaration above for the overlay is a gradient hack.*/
 
 .hero-text {
   padding: 80px 0;
@@ -257,7 +256,6 @@ nav ul li {
 }
 
 .intro-text {
-  /*margin-top: 50px;*/
   width: auto;
   padding: 30px 5px 0;
 }
@@ -391,11 +389,12 @@ nav ul li {
 }
 
 .featured-products li {
-  height: 470px;
+  padding-bottom: 20px;
+  height: auto;
 }
 
 .featured-products img {
-  width: 85%;
+  max-width: 85%;
   height: auto;
   margin: 0 auto;
 }
@@ -625,34 +624,14 @@ footer {
     justify-content: center;
   }
 
-  .bx-viewport {
-    height: 415px !important;
-  }
-
   .bxslider li {
     width: 50vw !important;
-    padding: 0;
     margin: 0;
+    padding-bottom: 20px;
   }
-  .bxclone img {
-    width: 50%;
-    margin: 0 auto;
-  }
-
-  /*li.bx-clone {
-    width: 100%;
-  }*/
-
-  .bx-viewport ul{
-    overflow: visible;
-    height: 325px ;
-  }
-
 
   .featured-products img {
-    width: 75%;
-    height: auto;
-
+    max-width: 75%;
   }
 
   .call-to-action {
@@ -696,9 +675,6 @@ footer {
   .social-text {
     display: inline;
   }
-
-
-
 }
 
 
@@ -728,6 +704,10 @@ footer {
   .product-box {
     width: 25%;
     float: left;
+  }
+
+  .bxslider li {
+    width: 25vw !important;
   }
 
   .call-to-action {
@@ -760,18 +740,4 @@ footer {
   .social {
     margin-right: 60px;
   }
-
-  /* BxSlider */
-
-  /*.bx-viewport {
-    overflow: auto;
-  }*/
-
-  /*.bxslider {
-    width: 520%;
-  }*/
-
-  /*li.bx-clone {
-    width: 100%;
-  }*/
 }
