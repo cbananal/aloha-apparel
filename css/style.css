@@ -175,6 +175,7 @@ a:hover {
   height: 55px;
 
 }
+
 .logo img{
   max-width: 140px;
   height: auto;
@@ -291,7 +292,6 @@ nav ul li {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: stretch;
-
 }
 
 .rectangle {
@@ -436,45 +436,45 @@ nav ul li {
 }
 
 .call-to-action p {
-  margin-bottom: -15px;
+  width: 345px;
+  margin: 0 auto;
 }
 
-.call-to-action form {
-  width: 80%;
-  padding: 10px 10px;
-  margin: 35px auto 0;
-  display: inline-block;
+.form-container {
+  max-width: 280px;
+  margin: 35px auto;
+  padding: 14px 20px;
   background-color: #fff;
   border-radius: 2em;
+  display: flex;
+  justify-content: space-between;
   position: relative;
 }
 
-.call-to-action form input {
-  max-width: 60%;
-  border: none;
-  font-family: 'ralewaylight', sans-serif;
+.subscribe-field {
   color: #969696;
-  position: relative;
-  left: -45px;
+  font-family: 'ralewaylight', sans-serif;
+  border: none;
 }
 
 input:focus {
   outline: none;
 }
 
-button {
-  padding: 13px 16px;
+.subscribe-button {
+  width: 105px;
+  padding: 12px 10px;
+  color: #fff;
+  font-family: 'ralewaymedium', sans-serif;
+  background-color: #e2574c;
   border: none;
   border-radius: 2em;
-  background-color: #e2574c;
-  font-family: 'ralewaymedium', sans-serif;
-  color: #fff;
   position: absolute;
-  top: 2px;
+  top: 3px;
   right: 3px;
 }
 
-button:hover {
+.subscribe-button:hover {
   background-color: #b64036;
 }
 
@@ -586,7 +586,7 @@ footer {
     line-height: 38px;
   }
 
-  .intro-text p{
+  .intro-text p {
     width: 80%;
   }
 
@@ -598,7 +598,7 @@ footer {
     flex: 0 1 50%;
   }
 
-  .square{
+  .square {
     flex: 0 1 25%;
     border: 0;
   }
@@ -648,20 +648,13 @@ footer {
     line-height: 27px;
   }
 
-  .call-to-action p{
-    width: 80%;
-    padding: 0 10px;
-    margin: 0 auto -6px;
+  .call-to-action p {
+    width: 510px;
+    margin: 0 auto;
   }
 
-  .call-to-action form {
-    max-width: 400px;
-    padding: 10px 0;
-  }
-
-  button {
-    border-radius: 2em;
-    padding: 12px 16px;
+  .form-container {
+    max-width: 350px;
   }
 
   footer {
@@ -725,17 +718,14 @@ footer {
       url('../images/wave-bkgd.jpg') repeat-x bottom center;
     line-height: 29px;
   }
+
   .call-to-action p {
-    width: 48%;
+    width: 630px;
     margin: 0 auto;
   }
 
-  .call-to-action form input {
-    padding: 0px;
-  }
-
-  button {
-    top: 3px;
+  .form-container {
+    max-width: 385px;
   }
 
   .social {
