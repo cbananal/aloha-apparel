@@ -657,6 +657,10 @@ footer {
     max-width: 350px;
   }
 
+  .subscribe-field {
+    width: 250px;
+  }
+
   footer {
     display: flex;
     justify-content: space-between;
@@ -726,6 +730,10 @@ footer {
 
   .form-container {
     max-width: 385px;
+  }
+
+  .subscribe-field {
+    width: 280px;
   }
 
   .social {
