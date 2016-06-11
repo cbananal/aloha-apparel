@@ -402,9 +402,13 @@ nav ul li {
 
 .featured-products p {
   font-family: "ralewaymedium", sans-serif;
-  font-size: 12px;
+  font-size: 0.7rem;
   color: #969696;
   text-transform: uppercase;
+}
+
+.featured-products .price {
+  font-size: 0.9rem;
 }
 
 .bx-wrapper .bx-viewport {
@@ -638,6 +642,10 @@ footer {
 
   .featured-products img {
     max-width: 75%;
+  }
+
+  .featured-products .price {
+    font-size: 1rem;
   }
 
   .call-to-action {
