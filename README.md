@@ -1,5 +1,5 @@
 #Aloha Apparel Co.
-A single-page e-commerce site optimized for all browsers, with features such as Flexbox for displaying elements as well as Javascript / jQuery for simple interactive functionality.
+A single-page e-commerce site optimized for all browsers, built with the main objectives of using Flexbox for displaying elements as well as Javascript / jQuery for simple interactive functionality.
 
 ###Tools and Languages Used
 * HTML5 / CSS3
@@ -16,8 +16,4 @@ This project was a great opportunity to learn and practice responsive developmen
 I enjoyed doing this project as much as I learned from it. Other than the tools and languages mentioned, working on the site was also a good reminder to pay attention to design details, keep directories clean, and code in a way that would make it easy for other developers to read.
 
 
-
-
-
-
-######_*Design comprehensive by RED Academy, Inc._
+**Design comprehensive by RED Academy, Inc.*
