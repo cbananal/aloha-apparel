@@ -1,5 +1,5 @@
 #Aloha Apparel Co.
-A single-page e-commerce site built with the focus on using Flexbox for displaying elements, applying Javascript / jQuery for simple interactive functionality and ensuring cross-browser compatibility .
+A single-page e-commerce site built with the focus on using Flexbox for displaying elements, applying Javascript / jQuery for interactive functionality and ensuring cross-browser compatibility.
 
 ###Tools and Languages Used
 * HTML5 / CSS3
