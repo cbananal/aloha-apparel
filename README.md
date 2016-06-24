@@ -7,7 +7,7 @@ A single-page e-commerce site built with the focus on using Flexbox for displayi
 * Media Queries
 * Javascript / jQuery / jQuery Plugins
 
-###Learning Outcomes
+###The Experience / Learning Outcomes
 Having used HTML5 and CSS3 before, this project was a chance for me to explore more on what I could do with the said languages. It was helpful to find out the little hacks and tricks one can do with background images, how to incorporate font icons, among others. It also pushed me to unlearn some things and work according to industry-standard practices instead.
 
 With this project, I got to learn and practice responsive development and apply a mobile-first approach. It was also my first time to use the Flexbox technique and to hand-code Javascript and jQuery. As with usual firsts, they were a challenge but I learned a lot that can help me with my future coding.
